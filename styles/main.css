@@ -1,0 +1,56 @@
+body {
+    background-color: aquamarine;
+
+}
+
+/* Title Section */
+.macho__title {
+    background-color: rgb(241, 198, 69);
+}
+
+/* Sub-title Section */
+.macho__question {
+    background-color: red;
+}
+
+/* Macho Moods Section */
+.macho__moods {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: green;
+}
+
+.macho__moods--block {
+    background-color: yellow;
+    flex-basis: 30%;
+    height: 350px;
+    margin: 1%;
+}
+
+.macho__moods--name {
+    background-color: antiquewhite;
+    height: 20%;
+
+}
+
+.macho__moods--img {
+    background-color: rgb(205, 42, 172);
+    height: 40%
+}
+
+.macho__moods--quote {
+    background-color: blue;
+    height: 40%;
+    display: flex;
+}
+
+.macho__moods--quote--advice {
+    background-color: aqua;
+    margin: 1%;
+}
+
+.macho__moods--quote--list {
+    background-color: white;
+    margin: 1%;
+}
