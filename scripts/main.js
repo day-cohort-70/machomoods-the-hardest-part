@@ -1,2 +1,13 @@
+import { database } from "./database.js"
+// import MoodsBlock function
 
-const container = document.querySelector('.container')
+let moodBlockHTML = ``
+
+for (const mood of database) {
+    moodBlockHTML += MoodsBlock(mood)
+}
+
+
+
+const container = document.querySelector('.macho__moods')
+

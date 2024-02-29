@@ -47,10 +47,11 @@ body {
 
 .macho__moods--quote--advice {
     background-color: aqua;
-    margin: 1%;
+    width: 30%;
 }
 
 .macho__moods--quote--list {
     background-color: white;
-    margin: 1%;
+    width: 70%;
 }
+
