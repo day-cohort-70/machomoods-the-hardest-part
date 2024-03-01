@@ -1,16 +1,6 @@
+/* function to give the image */
 export const MoodsImage = (moodsImage) => {
-    const thisMoodsImage = `<div class="macho__moods--img" src="${moodsImage}"></div>`
+    const thisMoodsImage = `<img class="macho__moods--img" src="${moodsImage}" />`
+    return thisMoodsImage
 }
-
-
-
-
-
-
-// export const MoodBlockName = (machoName) => { 
-
-//     const thisBlockName = `<div class="macho__moods--name">${machoName}</div>`
-//     return thisBlockName
-// }
-
 
